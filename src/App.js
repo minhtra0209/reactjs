@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import { Navbar, NavbarBrand } from "reactstrap";
+import StaffList from "./components/StaffListcomponents";
 import { STAFFS } from "./list/staffs";
 class App extends Component {
   constructor(props) {
@@ -17,6 +18,7 @@ class App extends Component {
             <NavbarBrand>Ứng dụng quản lý nhân sự</NavbarBrand>
           </div>
         </Navbar>
+        <StaffList staffs={this.state.staffs} />
       </div>
     );
   }
