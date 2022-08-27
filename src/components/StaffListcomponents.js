@@ -28,7 +28,7 @@ class StaffList extends Component {
                 Ngày sinh: {dateFormat(staff.doB, "dd/mm/yy")}
               </CardText>
               <CardText>
-                Ngay vao Cong ty: {dateFormat(staff.startDate, "dd/mm/yy")}
+                Ngày vao Cong ty: {dateFormat(staff.startDate, "dd/mm/yy")}
               </CardText>
               <CardText>Phòng ban: {staff.department.name}</CardText>
               <CardText>So ngay nghi con lai: {staff.annualLeave}</CardText>
